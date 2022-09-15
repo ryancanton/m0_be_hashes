@@ -6,7 +6,7 @@
 # file by entering the following command in your Terminal:
 # `ruby hashes_1.rb`
 
-foods = {"apples": 23, "grapes": 507, "eggs": 48}
+foods = {"apples" => 23, "grapes" => 507, "eggs" => 48}
 
 
 # Write code that prints all of the 'keys' of the foods variable
@@ -48,16 +48,16 @@ end
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 email =
 {
-  "sender": "timmy@gmail.com",
-  "subject": "Your Car's Extended Warranty",
-  "inbox_no": 11254,
-  "content": "blahblahblah... blahblahblah",
-  "Cc": "wellsworth@outlook.com"
+  "sender" => "timmy@gmail.com",
+  "subject" => "Your Car's Extended Warranty",
+  "inbox_no" => 11254,
+  "content" => "blahblahblah... blahblahblah",
+  "Cc" => "wellsworth@outlook.com"
 
 }
 # Write code that prints your email hash to the terminal.
 email.each do |key, data|
-	p "#{key}: #{data}"
+	p "#{key} => #{data}"
 end
 
 # Write code that prints all of the 'keys' of the email hash
@@ -128,25 +128,25 @@ emails = ["email_1", "email_2", "email_3"]
 
 emails = [
   {
-    "sender": "gimmy@gmail.com",
-    "subject": "Your Bike's Extended Warranty",
-    "inbox_no": 11255,
-    "content": "I'm reaching out concerning...",
-    "Cc": "bobby@outlook.com"
+    "sender" => "gimmy@gmail.com",
+    "subject" => "Your Bike's Extended Warranty",
+    "inbox_no" => 11255,
+    "content" => "I'm reaching out concerning...",
+    "Cc" => "bobby@outlook.com"
   },
   {
-    "sender": "batman@gmail.com",
-    "subject": "Justice",
-    "inbox_no": 11256,
-    "content": "I will put you behind bars",
-    "Cc": "joker@outlook.com"
+    "sender" => "batman@gmail.com",
+    "subject" => "Justice",
+    "inbox_no" => 11256,
+    "content" => "I will put you behind bars",
+    "Cc" => "joker@outlook.com"
   },
   {
-    "sender": "lafawnduh@gmail.com",
-    "subject": "True Love",
-    "inbox_no": 11257,
-    "content": "Let's put a ring on it!",
-    "Cc": "napolean@outlook.com"
+    "sender" => "lafawnduh@gmail.com",
+    "subject" => "True Love",
+    "inbox_no" => 11257,
+    "content" => "Let's put a ring on it!",
+    "Cc" => "napolean@outlook.com"
   }
 ]
 
